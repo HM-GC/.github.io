@@ -1,0 +1,191 @@
+        .navigat{
+            text-align: center;
+            color: Red;
+            text-decoration-line: none;
+            text-align: start ;
+            font-family:sans-serif;
+            font-size: 85%;
+        }
+        a.navigat{
+            justify-content: space-around;
+            justify-self: center;
+        }
+        .navigat:hover {
+            color: black;
+            background-color: white;
+            border: 1px dashed lightskyblue;
+        }
+        .hmgc:hover{
+            text-shadow: rgb(49, 82, 77) 2px 3px 5px;;
+        }
+        header,.hmgc{
+            text-decoration-line: none;
+            color: rgb(56, 81, 88);
+            text-align: center;
+        }
+        nav{
+            text-align: center;
+            
+        }
+        .navigat {
+            border: 1px solid rgb(160, 20, 20);
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius:5px ;
+            border-top-right-radius: 5px ;
+            border-width: 0.50px 3px;
+            padding: 4px;
+    
+        }
+        body {
+            background-image: url(games.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            height: 1000px;
+            background-attachment: fixed;
+        }
+    
+        #shop,.shop{
+            color: rgba(168, 35, 64, 0.911);
+            opacity: 0.95;
+            text-decoration: none;
+            padding: 5px;
+            text-align: center;
+        }
+        .shop:hover{
+            text-shadow:2.5px 2.5px rgba(168, 35, 64, 0.733);
+        }
+        .items{
+            color: rgba(226, 212, 212, 0.842);
+            opacity: 0.75;
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.822) ;
+            padding-left: 20px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            border-right: 1px;
+        }
+        a.buy:hover{
+            color: yellow;
+            cursor: pointer;
+        }
+        #vips,li,a {
+            color: white;
+            opacity: 0.95;
+            text-shadow: 1.5px 1.5px rgb(0, 0, 0);
+            padding: 8px;
+            text-decoration: none;
+        }
+        .buy:hover {
+            border: 1px solid pink;
+            padding: 10px;
+        }
+        .sidenav {
+            float: right;
+            padding-bottom: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 30;
+            display: block;
+            border: 2px solid lightblue;
+            margin-right: 150px;
+        }
+        .money{
+            padding-left: 35px;
+        }
+        .lol{
+            padding-left: 30px;
+        }
+        .ho,.vo{
+            text-align: center;
+            margin-right: 400px;
+        }
+        p.vo,p.ho{
+            text-align: center;
+            padding-bottom: 0px;
+        }
+        .det{
+            padding-left: 10px;
+        }
+        .vo,.ho{
+            color: rgba(168, 35, 64, 0.911);
+            opacity: 0.95;
+            text-decoration: none;
+            padding: 5px;
+            margin-left: 30%;
+            text-shadow:1px 1px black;
+        }
+        h2.items{
+            color: lightyellow;
+            text-shadow:1px 1px rgba(0, 0, 0, 0.945);
+        }
+        p.lo{
+            margin: 0px;
+            padding-top: 0px;
+            color: lightyellow;
+            text-shadow:1px 1px rgba(0, 0, 0, 0.945);
+        }
+        div.det{
+            padding-left: 20px;
+            background-color: rgba(0, 0, 0, 0.356);
+            display: block;
+            padding: 30px;
+            font-size: 107%;
+        }
+        input#name,input#steam,input#mail,select#server-select,select#month-select,input#number,input#holdername,input#details,button{
+            padding: 4px;
+        }
+        button{
+            background-color: rgba(0, 0, 0, 0.527);
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-left: 75px;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: rgba(173, 216, 230, 0.486);
+            cursor: pointer;
+        }
+        @media only screen and (max-width: 750px) {
+  body,.navigat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 750px) {
+    a.navigat{
+      align-items: center;
+    text-align: center ;
+    border-width: 50%;
+  }
+}
+@media only screen and (max-width: 750px) {
+    nav{
+      margin-right: 37%;
+      margin-left: 37%;
+  }
+}
+@media only screen and (max-width: 750px) {
+    p.vo{
+        margin-left: 42%;
+        display: flex;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+    p.ho{
+        margin-left: 40%;
+        display: flex;
+        margin-right: 100%;
+
+  }
+}
+@media only screen and (max-width: 750px){
+    div.sidenav{
+        display: none;
+    }
+}
