@@ -1,4 +1,4 @@
-     .navigat{
+        .navigat{
             text-align: center;
             color: Red;
             text-decoration-line: none;
@@ -45,7 +45,6 @@
             height: 1000px;
             background-attachment: fixed;
         }
-    
     
         #shop,.shop{
             color: rgba(168, 35, 64, 0.911);
@@ -188,5 +187,11 @@
 @media only screen and (max-width: 750px){
     div.sidenav{
         display: none;
+    }
+}
+@media only screen and (max-width: 750px){
+    body{
+        background-image: none;
+        background-color: black;
     }
 }
