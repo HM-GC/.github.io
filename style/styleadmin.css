@@ -1,4 +1,4 @@
-        .navigat{
+               .navigat{
             text-align: center;
             color: Red;
             text-decoration-line: none;
@@ -22,6 +22,8 @@
             text-decoration-line: none;
             color: rgb(56, 81, 88);
             text-align: center;
+            display: flex;
+            margin: 0px;
         }
         nav{
             text-align: center;
@@ -45,13 +47,15 @@
             height: 1000px;
             background-attachment: fixed;
         }
-    
         #shop,.shop{
             color: rgba(168, 35, 64, 0.911);
             opacity: 0.95;
             text-decoration: none;
             padding: 5px;
             text-align: center;
+        }
+        a.shop{
+            display: flex;
         }
         .shop:hover{
             text-shadow:2.5px 2.5px rgba(168, 35, 64, 0.733);
@@ -137,7 +141,7 @@
         input#name,input#steam,input#mail,select#server-select,select#month-select,input#number,input#holdername,input#details,button{
             padding: 4px;
         }
-        button{
+        button.vipbtn{
             background-color: rgba(0, 0, 0, 0.527);
             padding: 10px;
             padding-left: 30px;
@@ -181,6 +185,7 @@
         margin-left: 40%;
         display: flex;
         margin-right: 100%;
+        text-align: center;
 
   }
 }
@@ -192,6 +197,51 @@
 @media only screen and (max-width: 750px){
     body{
         background-image: none;
-        background-color: black;
+        background-color: rgba(52, 158, 190, 0.425);
     }
+}
+@media only screen and (max-width: 750px){
+    p.ho,p.vo,a.shop {
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 750px){
+div.navbar{
+    display: block;
+    height: 43px;
+    overflow: hidden;
+    width: 15%;
+    margin-top: 5.9%;
+    }
+}
+@media only screen and (max-width: 750px){
+button.navtab:hover{
+    display: flex;
+    }
+}
+@media only screen and (max-width: 750px){
+div.navbar:hover{
+    flex-direction: column;
+    overflow: visible;
+    padding: 2px;
+    display: inline-flex;
+    height: auto;
+    }
+}
+@media only screen and (max-width: 750px){
+.navbtn, a{
+    margin-top: 35%;
+    padding-left: 15px;
+    padding-right: 13px;
+    }
+}
+@media only screen and (min-width: 400px){
+    div.navbar, .navbtn{
+        display: none;
+    }   
+}
+@media only screen and (max-width: 700px){
+    div.navbar,a{
+        padding: 2px;
+    }   
 }
